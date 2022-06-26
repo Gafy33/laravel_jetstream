@@ -12,8 +12,14 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Kdam Thmor Pro', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                main: '#020003',
+                violet: '#551A8B',
+                gris: '#0E0E0E',
+                vert: '#00ec00',
+            }
         },
     },
 
